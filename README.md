@@ -18,18 +18,18 @@
   * step 4: Comprehensive expression analysis visualization
 
 ## Example
-`[user@hpc scripts]$ bash runFlowDensityAnalysis.sh -t Tcells`
-`Started processing cell type ...Tcells`
-`Started processing sample ...Sample`
-`step 1: run flowDensity with optimized parameters with parental gating`
-`step 2: run flowDensity with optimized parameters for comprehensive expression analysis`
-`step 3: PCA visualization`
-`...processing PCA analysis...`
-`...cell type is ...Tcells`
-`...result files present in ../result/Tcells/`
-`step 4: Comprehensive expression analysis visualization`
-`...processing comprehensive expression analysis...`
-`...cell type is ...Tcells`
-`...result files present in ../result/Tcells/Independent/`
-`Completed processing sample ...Sample`
-`Completed processing cell type ...Tcells`
+`[user@hpc scripts]$ bash runFlowDensityAnalysis.sh -t Tcells`  
+`Started processing cell type ...Tcells`  
+`Started processing sample ...Sample`  
+`step 1: run flowDensity with optimized parameters with parental gating`  
+`step 2: run flowDensity with optimized parameters for comprehensive expression analysis`  
+`step 3: PCA visualization`  
+`...processing PCA analysis...`  
+`...cell type is ...Tcells`  
+`...result files present in ../result/Tcells/`  
+`step 4: Comprehensive expression analysis visualization`  
+`...processing comprehensive expression analysis...`  
+`...cell type is ...Tcells`  
+`...result files present in ../result/Tcells/Independent/`  
+`Completed processing sample ...Sample`  
+`Completed processing cell type ...Tcells`  
