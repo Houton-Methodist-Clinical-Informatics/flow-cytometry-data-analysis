@@ -1,8 +1,8 @@
 # Flow Cytometry Data Analysis and Visualization Pipeline using flowDensity
 * This repository consists of the pipeline scripts associated with the research paper “Implementing flowDensity for Automated Analysis of Bone Marrow Lymphocyte Population” by Eskandari et al.
 * The program analyzes flow cytometry data (.fcs) using flowDensity to automate analysis for evaluation of lymphocyte subsets in bone marrow biopsy specimens.
-
-* ![Screenshot](workflow.png)
+* Outline:
+![Screenshot](workflow.png)
 
 ## Usage:
 1. The main directory is divided into three groups - data, scripts, and result.
@@ -18,4 +18,18 @@
   * step 4: Comprehensive expression analysis visualization
 
 ## Example
-  * bash runFlowDensityAnalysis.sh -t Tcells-Bcells-CD34cells
+    [user@hpc scripts]$ bash runFlowDensityAnalysis.sh -t Tcells
+Started processing cell type ...Tcells
+Started processing sample ...Sample
+step 1: run flowDensity with optimized parameters with parental gating
+step 2: run flowDensity with optimized parameters for comprehensive expression analysis
+step 3: PCA visualization
+...processing PCA analysis...
+...cell type is ...Tcells
+...result files present in ../result/Tcells/
+step 4: Comprehensive expression analysis visualization
+...processing comprehensive expression analysis...
+...cell type is ...Tcells
+...result files present in ../result/Tcells/Independent/
+Completed processing sample ...Sample
+Completed processing cell type ...Tcells
