@@ -37,5 +37,5 @@
 `Completed processing sample ...Sample`  
 `Completed processing cell type ...Tcells`  
 
-* Outline:
+* Result in ../result/Tcells/Independent/:
 ![Screenshot](result_output.PNG)
