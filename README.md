@@ -1,5 +1,5 @@
 # Flow Cytometry Data Analysis and Visualization Pipeline using flowDensity
-* This repository consists of the pipeline scripts associated with the research paper “Implementing flowDensity for Automated Analysis of Bone Marrow Lymphocyte Population” by Eskandari et al.  
+* This repository consists of the pipeline scripts associated with the research paper “Implementing flowDensity for Automated Analysis of Bone Marrow Lymphocyte Population” by Eskandari et al. (2020).  
 * The program analyzes flow cytometry data (.fcs) using flowDensity to automate analysis for evaluation of lymphocyte subsets in bone marrow biopsy specimens.  
 
 * Outline:
@@ -14,7 +14,7 @@
     Sequential gating and PCA visualization outputs are present in result/{cell type}.
     Comprehensive expression analysis outputs are present in result/{cell type}/Independent/.  
 
-2. The pipeline consists of -
+2. The pipeline consists of the following four steps -
   * step 1: run flowDensity with optimized parameters with parental gating
   * step 2: run flowDensity with optimized parameters for comprehensive expression analysis
   * step 3: PCA visualization
