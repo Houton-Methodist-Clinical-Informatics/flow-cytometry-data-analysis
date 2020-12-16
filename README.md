@@ -38,4 +38,4 @@
 `Completed processing cell type ...Tcells`  
 
 * Outline:
-![Screenshot](result_output.png)
+![Screenshot](result_output.PNG)
