@@ -18,7 +18,7 @@
   * step 4: Comprehensive expression analysis visualization
 
 ## Example
-    [user@hpc scripts]$ bash runFlowDensityAnalysis.sh -t Tcells
+`[user@hpc scripts]$ bash runFlowDensityAnalysis.sh -t Tcells
 Started processing cell type ...Tcells
 Started processing sample ...Sample
 step 1: run flowDensity with optimized parameters with parental gating
@@ -32,4 +32,4 @@ step 4: Comprehensive expression analysis visualization
 ...cell type is ...Tcells
 ...result files present in ../result/Tcells/Independent/
 Completed processing sample ...Sample
-Completed processing cell type ...Tcells
+Completed processing cell type ...Tcells`
